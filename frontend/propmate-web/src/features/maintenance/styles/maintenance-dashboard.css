@@ -34,7 +34,7 @@
 }
 
 .maintenance-sidebar-label {
-    color: #696762;
+    color: #a8a49d;
     font-size: 0.62rem;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -130,7 +130,7 @@
 }
 
 .maintenance-user-details span {
-    color: #77746e;
+    color: #a8a49d;
     font-size: 0.61rem;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -141,7 +141,7 @@
     width: 100%;
     border: none;
     background: transparent;
-    color: #77746e;
+    color: #a8a49d;
     display: flex;
     justify-content: space-between;
     padding: 9px 4px;
@@ -176,18 +176,18 @@
     display: flex;
     align-items: center;
     gap: 9px;
-    color: #989289;
+    color: #625d55;
     font-size: 0.68rem;
 }
 
 .dashboard .breadcrumb span {
-    color: #b27e20;
+    color: #76510e;
     font-weight: 700;
     letter-spacing: 0.08em;
 }
 
 .dashboard .breadcrumb b {
-    color: #c9c4ba;
+    color: #625d55;
     font-weight: 400;
 }
 
@@ -208,7 +208,7 @@
     display: grid;
     place-items: center;
     border: 1px solid #dedad1;
-    color: #b27e20;
+    color: #76510e;
     background: #f6f4ef;
     font-family: "Playfair Display", serif;
     font-size: 0.85rem;
@@ -227,7 +227,7 @@
 .dashboard .manager-info small {
     max-width: 190px;
     margin-top: 2px;
-    color: #918c83;
+    color: #625d55;
     font-size: 0.6rem;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -248,7 +248,7 @@
 }
 
 .dashboard .eyebrow {
-    color: #b27e20;
+    color: #76510e;
     font-size: 0.65rem;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -268,7 +268,7 @@
 }
 
 .dashboard .lede {
-    color: #7d7971;
+    color: #625d55;
     font-size: 0.85rem;
     margin: 11px 0 0;
 }
@@ -328,7 +328,7 @@
     border: 0;
     padding: 0;
     background: transparent;
-    color: #9a6d1f;
+    color: #76510e;
     font: inherit;
     font-size: 0.72rem;
     font-weight: 700;
@@ -355,7 +355,7 @@
     min-height: 39px;
     border: 1px solid #dedad1;
     background: #fbfaf7;
-    color: #8b6829;
+    color: #76510e;
     cursor: pointer;
 }
 
@@ -387,7 +387,7 @@
 
 .dashboard .stat-card>span {
     display: block;
-    color: #858078;
+    color: #625d55;
     font-size: 0.6rem;
     font-weight: 700;
     letter-spacing: 0.13em;
@@ -406,13 +406,13 @@
 
 .dashboard .stat-card>small {
     display: block;
-    color: #979188;
+    color: #625d55;
     font-size: 0.69rem;
 }
 
 .dashboard .stat-card:last-child>span,
 .dashboard .stat-card:last-child>small {
-    color: #77736c;
+    color: #a8a49d;
 }
 
 .dashboard .stat-card:last-child>strong {
@@ -451,7 +451,7 @@
 
 .dashboard .panel-heading p:not(.eyebrow) {
     margin: 5px 0 0;
-    color: #918c83;
+    color: #625d55;
     font-size: 0.72rem;
 }
 
@@ -473,7 +473,7 @@
     align-items: center;
     padding: 17px 0;
     border-bottom: 1px solid #dedad1;
-    color: #7d7971;
+    color: #625d55;
     font-size: 0.72rem;
 }
 
@@ -518,7 +518,7 @@
 .dashboard th {
     padding: 15px 20px;
     border-bottom: 1px solid #dedad1;
-    color: #989289;
+    color: #625d55;
     text-align: left;
     font-size: 0.58rem;
     font-weight: 700;
@@ -552,7 +552,7 @@
 .dashboard .cell-subtitle {
     display: block;
     margin-top: 4px;
-    color: #9a958c;
+    color: #625d55;
     font-size: 0.64rem;
 }
 
@@ -628,7 +628,7 @@
 .dashboard .priority-medium,
 .dashboard .availability.busy {
     background: #f5ead5;
-    color: #8b641e;
+    color: #76510e;
 }
 
 .dashboard .status-in-progress,
@@ -658,12 +658,12 @@
     gap: 24px;
     padding: 18px 24px;
     border-bottom: 1px solid #dedad1;
-    color: #7d7971;
+    color: #625d55;
     font-size: 0.72rem;
 }
 
 .dashboard .section-summary span+span {
-    color: #8b6829;
+    color: #76510e;
 }
 
 .dashboard .technician-grid {
@@ -692,7 +692,7 @@
     place-items: center;
     border: 1px solid #dedad1;
     background: #f6f4ef;
-    color: #b27e20;
+    color: #76510e;
     font-family: "Playfair Display", serif;
     font-size: 1.05rem;
 }
@@ -706,14 +706,14 @@
 
 .dashboard .tech-specialization {
     margin-bottom: 15px;
-    color: #8b6829;
+    color: #76510e;
     font-size: 0.72rem;
 }
 
 .dashboard .tech-contact {
     min-height: 36px;
     margin-bottom: 20px;
-    color: #7d7971;
+    color: #625d55;
     font-size: 0.68rem;
     line-height: 1.7;
 }
@@ -735,7 +735,7 @@
 
 .dashboard .headline-number span {
     display: block;
-    color: #7d7971;
+    color: #625d55;
     font-size: 0.68rem;
 }
 
@@ -786,12 +786,12 @@
 
 .dashboard .history-content p {
     margin: 7px 0;
-    color: #7d7971;
+    color: #625d55;
     font-size: 0.72rem;
 }
 
 .dashboard .history-content small {
-    color: #9a958c;
+    color: #625d55;
     font-size: 0.62rem;
 }
 
@@ -829,7 +829,7 @@
 
 .dashboard .empty-state {
     padding: 35px;
-    color: #918c83;
+    color: #625d55;
     text-align: center;
     font-size: 0.76rem;
 }
@@ -879,7 +879,7 @@
 .dashboard .modal-header>button {
     border: 0;
     background: transparent;
-    color: #77736c;
+    color: #625d55;
     font-size: 1.35rem;
     cursor: pointer;
 }

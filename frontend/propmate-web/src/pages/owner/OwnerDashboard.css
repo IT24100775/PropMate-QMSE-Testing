@@ -27,7 +27,7 @@
 }
 
 .sidebar-section-label {
-  color: #696762;
+  color: #a8a49d;
   font-size: 0.62rem;
   font-weight: 700;
   letter-spacing: 0.2em;
@@ -117,7 +117,7 @@
 }
 
 .user-details span {
-  color: #77746e;
+  color: #a8a49d;
   font-size: 0.61rem;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -128,7 +128,7 @@
   width: 100%;
   border: none;
   background: transparent;
-  color: #77746e;
+  color: #a8a49d;
   display: flex;
   justify-content: space-between;
   padding: 9px 4px;
@@ -156,7 +156,7 @@
 }
 
 .page-eyebrow {
-  color: #b27e20;
+  color: #76510e;
   font-size: 0.65rem;
   font-weight: 700;
   letter-spacing: 0.2em;
@@ -172,7 +172,7 @@
 }
 
 .page-description {
-  color: #7d7971;
+  color: #625d55;
   font-size: 0.85rem;
   margin: 11px 0 0;
 }
@@ -225,22 +225,26 @@
   border-right: none;
 }
 
-.stat-top {
+.owner-layout .stat-top {
   display: flex;
   justify-content: space-between;
-  color: #858078;
+  color: #625d55;
   font-size: 0.6rem;
   font-weight: 700;
   letter-spacing: 0.13em;
 }
 
-.stat-mark {
-  color: #c3beb4;
+.owner-layout .stat-card .stat-top > span {
+  color: #625d55;
+}
+
+.owner-layout .stat-mark {
+  color: #625d55;
   font-family: "Playfair Display", serif;
 }
 
-.stat-mark.gold {
-  color: #b27e20;
+.owner-layout .stat-mark.gold {
+  color: #76510e;
 }
 
 .stat-card > strong {
@@ -251,26 +255,27 @@
   font-weight: 600;
 }
 
-.stat-card > p {
-  color: #979188;
+.owner-layout .stat-card > p {
+  color: #625d55;
   font-size: 0.69rem;
   margin: 7px 0 0;
 }
 
-.dark-stat {
+.owner-layout .dark-stat {
   background: #1b1a18;
 }
 
-.dark-stat .stat-top {
-  color: #77736c;
+.owner-layout .dark-stat .stat-top,
+.owner-layout .dark-stat .stat-top > span {
+  color: #a8a49d;
 }
 
-.dark-stat > strong {
+.owner-layout .dark-stat > strong {
   color: #cf9e3e;
 }
 
-.dark-stat > p {
-  color: #77736c;
+.owner-layout .dark-stat > p {
+  color: #a8a49d;
 }
 
 /* LISTINGS */
@@ -318,7 +323,7 @@
 .listing-table th {
   padding: 15px 20px;
   border-bottom: 1px solid #dedad1;
-  color: #989289;
+  color: #625d55;
   text-align: left;
   font-size: 0.58rem;
   letter-spacing: 0.14em;
@@ -374,7 +379,7 @@
 }
 
 .property-cell span {
-  color: #9a958c;
+  color: #625d55;
   font-size: 0.66rem;
 }
 
@@ -402,7 +407,7 @@
 .status-underreview,
 .status-submitted {
   background: #f5ead5;
-  color: #8b641e;
+  color: #76510e;
 }
 
 .status-revisionrequired {
@@ -416,7 +421,7 @@
 }
 
 .table-action {
-  color: #a77724;
+  color: #76510e;
   text-decoration: none;
   font-size: 1rem;
 }
@@ -450,13 +455,13 @@
 
 .dashboard-empty p {
   max-width: 410px;
-  color: #918c83;
+  color: #625d55;
   font-size: 0.76rem;
   line-height: 1.6;
 }
 
 .dashboard-empty a {
-  color: #9a6d1f;
+  color: #76510e;
   font-size: 0.72rem;
   font-weight: 700;
   text-decoration: none;
