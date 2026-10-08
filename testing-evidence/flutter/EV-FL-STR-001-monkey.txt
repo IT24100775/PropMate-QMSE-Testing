@@ -1,0 +1,142 @@
+﻿  bash arg: -p
+  bash arg: com.example.propmate_mobile
+  bash arg: --throttle
+  bash arg: 200
+  bash arg: --pct-syskeys
+  bash arg: 0
+  bash arg: --pct-appswitch
+  bash arg: 0
+  bash arg: --pct-flip
+  bash arg: 0
+  bash arg: --pct-permission
+  bash arg: 0
+  bash arg: --monitor-native-crashes
+  bash arg: --kill-process-after-error
+  bash arg: -s
+  bash arg: 54321
+  bash arg: -v
+  bash arg: 500
+adb.exe : args: [-p, 
+com.example.propmate_mobile, --throttle, 
+200, --pct-syskeys, 0, --pct-appswitch, 0, 
+--pct-flip, 0, --pct-permission, 0, 
+--monitor-native-crashes, 
+--kill-process-after-error, -s, 54321, -v, 
+500]
+At line:1 char:1
++ & "$env:LOCALAPPDATA\Android\Sdk\platform-
+tools\adb.exe" -s R5GYB18TY ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: 
+    (args: [-p, com....54321, -v, 500]:Str  
+  ing) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommand 
+   Error
+ 
+ arg: "-p"
+ arg: "com.example.propmate_mobile"
+ arg: "--throttle"
+ arg: "200"
+ arg: "--pct-syskeys"
+ arg: "0"
+ arg: "--pct-appswitch"
+ arg: "0"
+ arg: "--pct-flip"
+ arg: "0"
+ arg: "--pct-permission"
+ arg: "0"
+ arg: "--monitor-native-crashes"
+ arg: "--kill-process-after-error"
+ arg: "-s"
+ arg: "54321"
+ arg: "-v"
+ arg: "500"
+data="com.example.propmate_mobile"
+arg="--throttle" mCurArgData="null" 
+mNextArg=3 argwas="--throttle" nextarg="200"
+data="200"
+arg="--pct-syskeys" mCurArgData="null" 
+mNextArg=5 argwas="--pct-syskeys" 
+nextarg="0"
+data="0"
+arg="--pct-appswitch" mCurArgData="null" 
+mNextArg=7 argwas="--pct-appswitch" 
+nextarg="0"
+data="0"
+arg="--pct-flip" mCurArgData="null" 
+mNextArg=9 argwas="--pct-flip" nextarg="0"
+data="0"
+arg="--pct-permission" mCurArgData="null" 
+mNextArg=11 argwas="--pct-permission" 
+nextarg="0"
+data="0"
+arg="--monitor-native-crashes" 
+mCurArgData="null" mNextArg=13 
+argwas="--monitor-native-crashes" 
+nextarg="--kill-process-after-error"
+arg="--kill-process-after-error" 
+mCurArgData="null" mNextArg=14 
+argwas="--kill-process-after-error" 
+nextarg="-s"
+data="54321"
+:Monkey: seed=54321 count=500
+:AllowPackage: com.example.propmate_mobile
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.7894745%
+//   1: 10.526316%
+//   2: 2.1052632%
+//   3: 15.7894745%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 26.31579%
+//   7: 15.7894745%
+//   8: -0.0%
+//   9: -0.0%
+//   10: -0.0%
+//   11: 13.684211%
+** New tombstone found: /data/tombstones/tombstone_00.pb, size: 21049
+** New tombstone found: /data/tombstones/tombstone_00, size: 43502
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.example.propmate_mobile/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.propmate_mobile/.MainActivity } in package com.example.propmate_mobile
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    //[calendar_time:2026-10-08 18:56:39.051  system_uptime:98726584]
+    // Sending event #100
+    //[calendar_time:2026-10-08 18:56:39.265  system_uptime:98726786]
+    // Sending event #100
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+    //[calendar_time:2026-10-08 18:56:44.210  system_uptime:98731731]
+    // Sending event #200
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+    //[calendar_time:2026-10-08 18:56:49.108  system_uptime:98736629]
+    // Sending event #300
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+    //[calendar_time:2026-10-08 18:56:55.745  system_uptime:98743266]
+    // Sending event #400
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+Events injected: 500
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=0 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=27835ms (0ms mobile, 0ms wifi, 27835ms not connected)
+// Monkey finished
